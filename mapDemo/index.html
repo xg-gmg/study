@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <script src="http://webapi.amap.com/maps?v=1.4.6&key=10014153f745e679930f3a1a65b668c8"></script>
+    <script src="js/js.js"></script>
+    <style type="text/css">
+        body,html,#container{
+            height: 100%;
+            margin: 0px;
+        }
+    </style>
+    <title>地图</title>
+</head>
+<body>
+<div>
+    <button onclick="map3d('2D')">2D</button>
+    <button onclick="map3d('3D')" >3D</button>
+    <button onclick="onAddPoint()">开始点标记</button>
+    <button onclick="addLine()">添加线标记</button>
+    <button onclick="addCircle()">添加面-圆</button>
+    <button onclick="addPolygon()">添加面-多边形</button>
+    <button onclick="claenmap()">清除所有覆盖物</button>
+    <button onclick="getSF()">获取缩放级别</button>
+    <button onclick="getZXD()">获取中心点坐标</button>
+    <button onclick="getBLC()">获取地图比例尺</button>
+    <button onclick="toBig()">放大</button>
+    <button onclick="toSmall()">缩小</button>
+
+</div>
+<div id="container" tabindex="0"></div>
+<script>
+    var map = new AMap.Map('container',{   //map是一个地图对象，container是一个div的id
+        resizeEnable: true,
+        zoom: 10,
+        center: [116.480983, 40.0958]
+    });
+
+    //添加工具条、比例尺、鹰眼
+    AMap.plugin(['AMap.ToolBar','AMap.Scale','AMap.OverView'],
+        function(){
+            map.addControl(new AMap.ToolBar());
+
+            map.addControl(new AMap.Scale());
+
+            map.addControl(new AMap.OverView({isOpen:true}));
+        });
+
+</script>
+</body>
+</html>
