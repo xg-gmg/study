@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 586
+  ClientWidth = 432
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 432.000000000000000000
+    Size.Height = 586.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Layout2: TLayout
+      Align = MostTop
+      Size.Width = 432.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle1: TRectangle
+        Align = MostTop
+        Size.Width = 432.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object TabControl1: TTabControl
+        Align = Client
+        Size.Width = 432.000000000000000000
+        Size.Height = 112.000000000000000000
+        Size.PlatformDefault = False
+        TabIndex = 0
+        TabOrder = 1
+        TabPosition = PlatformDefault
+        Sizes = (
+          432s
+          86s
+          432s
+          86s)
+        object TabItem1: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = True
+          Size.Width = 68.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = #22320#22270#21151#33021
+        end
+        object TabItem2: TTabItem
+          CustomIcon = <
+            item
+            end>
+          IsSelected = False
+          Size.Width = 68.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = ''
+          TabOrder = 0
+          Text = #33322#29677#21151#33021
+        end
+      end
+    end
+    object WebBrowser1: TWebBrowser
+      Align = Client
+      Size.Width = 432.000000000000000000
+      Size.Height = 425.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

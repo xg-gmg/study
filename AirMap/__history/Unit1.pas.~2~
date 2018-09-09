@@ -1,0 +1,40 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.WebBrowser,
+  FMX.Layouts, SG.ScriptGate, FMX.TabControl, FMX.Objects;
+
+type
+  TForm1 = class(TForm)
+    Layout1: TLayout;
+    Layout2: TLayout;
+    WebBrowser1: TWebBrowser;
+    Rectangle1: TRectangle;
+    TabControl1: TTabControl;
+    TabItem1: TTabItem;
+    TabItem2: TTabItem;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    sgobj:TScriptGate;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  WebBrowser1.Navigate('http://xgblack.top/web/map0629/');
+  sgObj:=TScriptGate.create(self,webbrowser1,'delphi');
+end;
+
+end.

@@ -1,0 +1,20 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 337
+  Width = 412
+  object MySQLUniProvider1: TMySQLUniProvider
+    Left = 48
+    Top = 24
+  end
+  object UniConnection1: TUniConnection
+    ProviderName = 'MySQL'
+    Port = 3306
+    Database = 'xgblack'
+    Username = 'xgblack'
+    Server = '149.28.231.167'
+    Connected = True
+    Left = 48
+    Top = 88
+    EncryptedPassword = '9DFF87FF95FF9CFF98FFD1FFD1FFCEFFCDFFCCFFD1FFD1FF'
+  end
+end

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/06/29 17:32:29.000.954,=D:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 17:34:15.000.401,D:\Delphi\Project1.dproj=D:\Delphi\map.dproj</Transaction>
+    <Transaction>2018/06/29 17:35:05.000.019,D:\Delphi\Unit1.fmx=D:\Delphi\AirMap\Unit1.fmx</Transaction>
+    <Transaction>2018/06/29 17:35:05.000.019,D:\Delphi\Unit1.pas=D:\Delphi\AirMap\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 17:35:20.000.930,D:\Delphi\map.dproj=D:\Delphi\AIRmap.dproj</Transaction>
+    <Transaction>2018/06/29 17:35:29.000.528,D:\Delphi\AIRmap.dproj=D:\Delphi\AirMap\AIRmap.dproj</Transaction>
+    <Transaction>2018/06/29 17:37:11.000.439,=D:\Delphi\AirMap\SG.ScriptGate.pas</Transaction>
+    <Transaction>2018/06/29 17:39:06.000.942,=D:\Delphi\AirMap\Unit2.pas</Transaction>
+    <Transaction>2018/06/29 17:39:32.000.297,=D:\Delphi\AirMap\Unit2.pas</Transaction>
+    <Transaction>2018/06/29 17:39:51.000.513,D:\Delphi\AirMap\Unit2.dfm=D:\Delphi\AirMap\UnitDM.dfm</Transaction>
+    <Transaction>2018/06/29 17:39:51.000.513,D:\Delphi\AirMap\Unit2.pas=D:\Delphi\AirMap\UnitDM.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
